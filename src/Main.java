@@ -42,6 +42,7 @@ public class Main {
                             else System.out.println("ID must be positive!");
                         } else {
                             System.out.println("ID must be a whole number!");
+                            scanner.nextLine();
                         }
                     }
                     double grade;
@@ -53,6 +54,7 @@ public class Main {
                             else System.out.println("Grade is /100, should be between 0 & 100!");
                         } else {
                             System.out.println("Grade must be a number!");
+                            scanner.nextLine();
                         }
                     }
                     students.add(new Student(name, id, grade));
